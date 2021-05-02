@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+html{
+  overflow: hidden;
+}
+.top {
+  background: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  font-family: "Fjalla One", sans-serif;
+  background: linear-gradient(to bottom, yellow 0%, darkorange 100%);
+}
+
+.text-container {
+  transform: translate(-50%, -70%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 450px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+
+.bottom{
+  background: linear-gradient(to top, yellow 0%, darkorange 100%);
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  display: block;
+}
+
+.friend-list{
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 450px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;  
+}
+
+.card-text {
+  font-family: Raleway;
+  font-size: 20px;
+  color: black;
+}
+
+.card{
+  margin-left: 2%;
+  transition: padding, 1s;
+}
+
+.card:hover{
+  padding: 50px;
+}
+
+.card-img-top{
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.cards{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  display: block;
+  width: 80%;
+}
+
+.title {
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+.title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: black 1px 1px, black 2px 2px, black 3px 3px, black 4px 4px, black 5px 5px, black 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
+
+.aral {
+  color: #e55643;
+}
+.sukru {
+  color: #2b9f5e;
+}
+.furkan {
+  color: skyblue;
+}
+.ozan {
+  color: #e73ef0;
+}
+.fosa{
+  color: #035800;
+}
+
+.scroller{
+  margin-top: 50px;
+  margin-left: 50px;
+}
