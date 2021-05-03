@@ -77,7 +77,7 @@ html{
 .cards{
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 20%);
+  transform: translate(-50%, 15%);
   display: block;
   width: 80%;
 }
